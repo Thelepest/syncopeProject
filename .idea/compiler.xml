@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="syncope-common" />
+        <module name="syncope-ext-reminder-rest-cxf" />
+        <module name="syncope-enduser" />
+        <module name="syncope-console" />
+        <module name="syncope-core" />
+        <module name="syncope-ext-reminder-logic" />
+        <module name="syncope-ext-reminder-rest-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SyncopeProject" target="1.7" />
+      <module name="syncopeProject-rest-cxf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="syncope-common" options="-Xlint:unchecked" />
+      <module name="syncope-console" options="-Xlint:unchecked" />
+      <module name="syncope-core" options="-Xlint:unchecked" />
+      <module name="syncope-enduser" options="-Xlint:unchecked" />
+      <module name="syncope-ext-reminder-logic" options="-Xlint:unchecked" />
+      <module name="syncope-ext-reminder-rest-api" options="-Xlint:unchecked" />
+      <module name="syncope-ext-reminder-rest-cxf" options="-Xlint:unchecked" />
+      <module name="syncopeProject-rest-cxf" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>
