@@ -5,13 +5,13 @@
 
   <parent>
     <groupId>com.marcobiasone</groupId>
-    <artifactId>syncope-ext-reminder</artifactId>
+    <artifactId>syncope-ext-userslist</artifactId>
     <version>1.0</version>
   </parent>
 
-  <name>Apache Syncope: new REST endpoint - Ext: Reminder REST CXF</name>
-  <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-  <artifactId>syncope-ext-reminder-rest-cxf</artifactId>
+  <name>Apache Syncope: new REST endpoint - Ext: Userslist REST CXF</name>
+  <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
+  <artifactId>syncope-ext-userslist-rest-cxf</artifactId>
   <packaging>jar</packaging>
   
   <properties>
@@ -41,8 +41,14 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
+      <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
+      <artifactId>syncope-ext-userslist-rest-api</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
+      <artifactId>syncope-ext-userslist-logic</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
     </dependency>
