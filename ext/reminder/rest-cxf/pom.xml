@@ -40,12 +40,6 @@
       <artifactId>syncope-ext-reminder-logic</artifactId>
       <version>${project.version}</version>
     </dependency>
-    <dependency>
-      <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
   </dependencies>
 
   <build>

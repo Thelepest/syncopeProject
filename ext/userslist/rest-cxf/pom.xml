@@ -25,32 +25,20 @@
     </dependency>
 
     <dependency>
-      <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-rest-api</artifactId>
-      <version>${project.version}</version>
-      <classifier>javadoc</classifier>
-    </dependency>
-    <dependency>
-      <groupId>net.tirasa.blog.ilgrosso.ext.reminder</groupId>
-      <artifactId>syncope-ext-reminder-logic</artifactId>
+      <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
+      <artifactId>syncope-ext-userslist-rest-api</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
       <artifactId>syncope-ext-userslist-rest-api</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
+      <version>${project.version}</version>
+      <classifier>javadoc</classifier>
     </dependency>
     <dependency>
       <groupId>net.tirasa.blog.ilgrosso.ext.userslist</groupId>
       <artifactId>syncope-ext-userslist-logic</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
